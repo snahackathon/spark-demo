@@ -9,5 +9,6 @@ libraryDependencies ++= Seq(
     ExclusionRule(organization = "asm")
     ),
   "org.apache.spark" %% "spark-core" % "0.9.0-incubating",
-  "org.apache.spark" %% "spark-graphx" % "0.9.0-incubating"
+  "org.apache.spark" %% "spark-graphx" % "0.9.0-incubating",
+  "org.apache.spark" %% "spark-mllib" % "0.9.0-incubating"
 )
